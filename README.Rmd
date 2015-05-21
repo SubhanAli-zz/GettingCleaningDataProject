@@ -1,0 +1,16 @@
+---
+title: "README"
+output: html_document
+---
+
+This is the README for the physical activities script in the course project for Getting and Cleaning Data. 
+
+For this data analysis, a number of activities are performed on the datasets.
+
+First, the files are read into R from the .txt format. 
+
+Second, they are labeled according to the data labels found in the y labels. Additional columns are also added to account for the subject and the activities being performed. All of this data is then combined into one dataset.
+
+The labels are then cleaned up to replace them with regular words as opposed to the raw data labels. 
+
+A tidyset dataset is then produced at the end that reports the mean grouped around the subjects and activities performed.
